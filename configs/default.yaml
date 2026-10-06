@@ -1,0 +1,52 @@
+bbox:
+  south: 32.5
+  north: 42.0
+  west: -124.5
+  east: -114.0
+grid_deg: 0.05
+study_start: "2019-01-01"
+study_end: "2020-12-31"
+sensor: VIIRS_SNPP_SP
+nrt_sensors:
+  - VIIRS_SNPP_NRT
+  - VIIRS_NOAA20_NRT
+  - VIIRS_NOAA21_NRT
+splits:
+  train: ["2019-01-01", "2020-05-31"]
+  val: ["2020-06-01", "2020-07-31"]
+  test: ["2020-08-01", "2020-12-31"]
+confidence:
+  l: 0.3
+  low: 0.3
+  n: 0.7
+  nominal: 0.7
+  h: 1.0
+  high: 1.0
+encoding: log_frp
+lif:
+  tau_hours: 24
+  v_th: 1.0
+  v_reset: 0.0
+  refrac_hours: 3
+  kernel: 5
+  couple_sigma: 1.0
+  couple_weight: 0.15
+  mode: sparse
+horizons_hours: [12, 24, 72]
+forecast_stride_hours: 6
+anomaly:
+  min_months: 4
+  winter_months: [12, 1, 2]
+track:
+  spike_hours: 6
+  gate_cells: 3.0
+  expire_hours: 12
+frame_stride_hours: 6
+paths:
+  raw_firms: data/firms/raw
+  events: data/firms/events.parquet
+  spans: data/perimeters/spans.parquet
+  frames: data/frames
+  results: data/results
+world_poll_minutes: 60
+seed: 0
