@@ -43,6 +43,8 @@ This repo treats the fire map as a **spatially coupled LIF sheet**, then attache
 - React + Leaflet map: California 2020 playback, live LIF hour step, global NRT refresh
 - FastAPI backend serving frames, `/api/step`, `/api/world`, and background FIRMS polling
 
+![screenshot](https://res.cloudinary.com/dzzrxqiho/image/upload/v1791426373/Group_3_3_dttmvc.png)
+
 ---
 
 ## Study scope
@@ -54,7 +56,7 @@ This repo treats the fire map as a **spatially coupled LIF sheet**, then attache
 | Region | California box above |
 | Grid | 0.05° (~5 km); one LIF neuron per cell |
 | Period | 1 Jan 2019 – 31 Dec 2020 |
-| Split | Train → May 2020 · Val Jun–Jul · Test Aug–Dec 2020 |
+| Split | Train -> May 2020 · Val Jun–Jul · Test Aug–Dec 2020 |
 | Encoding | Log fire radiative power (FRP) as synaptic / input current |
 
 Config: `configs/default.yaml`. Metrics and write-up notes: [`data/results/SUMMARY.md`](data/results/SUMMARY.md).
