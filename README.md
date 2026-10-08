@@ -6,7 +6,7 @@ Each ~5 km cell is a LIF unit. Satellite fire radiative power is encoded as inpu
 
 Readouts on LIF state support wildfire-vs-anomaly detection, track association, and short-horizon forecast. The scored study is Suomi-NPP VIIRS over California (**32.5–42.0°N, 124.5–114.0°W**, **2019–2020**). A global near-real-time view reuses the same SNN machinery (operational, not scored).
 
----
+![architecture](https://res.cloudinary.com/dzzrxqiho/image/upload/v1791423947/spiking-wildfire-architecture_yemw9r.jpg)
 
 ## Why SNN / LIF here
 
