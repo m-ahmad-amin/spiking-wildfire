@@ -1,6 +1,6 @@
 # Spiking Wildfire
 
-**Spiking Wildfire** is a **neurocomputing** project: a **spiking neural network (SNN)** built from **leaky integrate-and-fire (LIF)** neurons on a geographic grid, driven by NASA FIRMS heat detections.
+**Spiking Wildfire** is a **neurocomputing** project: a **spiking neural network (SNN)** built from **leaky integrate-and-fire (LIF)** neurons on a geographic grid, driven by NASA FIRMS heat detections. **[▶ Live Demo](https://spiking-wildfire.onrender.com/)**
 
 Each ~5 km cell is a LIF unit. Satellite fire radiative power is encoded as input current. Membrane potential integrates over hours, leaks between overflights, couples weakly to neighbors, and emits a **spike** when threshold is crossed. The grid is the network; time is event-driven and sparse by design.
 
