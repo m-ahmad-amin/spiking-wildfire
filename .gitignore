@@ -6,6 +6,7 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-data/
+data/firms/
+data/perimeters/
 node_modules/
 frontend/node_modules/
