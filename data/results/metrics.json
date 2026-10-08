@@ -1,0 +1,48 @@
+{
+  "counts": {
+    "train": {
+      "wildfire_cells": 1129,
+      "anomaly_cells": 359
+    },
+    "val": {
+      "wildfire_cells": 600,
+      "anomaly_cells": 0
+    },
+    "test": {
+      "wildfire_cells": 1596,
+      "anomaly_cells": 54
+    }
+  },
+  "detection": {
+    "val": {
+      "average_precision": null,
+      "f1": null
+    },
+    "test": {
+      "average_precision": 0.992164188539159,
+      "f1": 0.9824231010671689
+    }
+  },
+  "forecast_average_precision": {
+    "12": 0.03201636920070219,
+    "24": 0.05752521006598885,
+    "72": 0.10112501676072908
+  },
+  "dilation_24h_average_precision": 0.01631598712332546,
+  "tracking": {
+    "mean_daily_iou": 0.044599622869221055,
+    "identity_switches": 205,
+    "days": 153
+  },
+  "cell_updates": 39223021,
+  "readouts": "G:\\My Drive\\spiking-wildfire\\data\\results\\readouts.joblib",
+  "lif": {
+    "tau_hours": 24.0,
+    "v_th": 1.0,
+    "v_reset": 0.0,
+    "refrac_hours": 3,
+    "couple_weight": 0.15,
+    "mode": "sparse",
+    "encoding": "log_frp"
+  }
+}

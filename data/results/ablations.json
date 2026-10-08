@@ -1,0 +1,98 @@
+[
+  {
+    "name": "default",
+    "detection_test_ap": 0.9934737213560291,
+    "forecast_24h_ap": 0.05813035697084671,
+    "cell_updates": 700005600,
+    "device": "cuda",
+    "mode": "dense"
+  },
+  {
+    "name": "tau_12",
+    "detection_test_ap": 0.9917382934831619,
+    "forecast_24h_ap": 0.05343778820364603,
+    "cell_updates": 700005600,
+    "device": "cuda",
+    "mode": "dense"
+  },
+  {
+    "name": "tau_48",
+    "detection_test_ap": 0.9974878442589714,
+    "forecast_24h_ap": 0.053020894499232155,
+    "cell_updates": 700005600,
+    "device": "cuda",
+    "mode": "dense"
+  },
+  {
+    "name": "threshold_0.5",
+    "detection_test_ap": 0.9950149643519839,
+    "forecast_24h_ap": 0.04757846958131923,
+    "cell_updates": 700005600,
+    "device": "cuda",
+    "mode": "dense"
+  },
+  {
+    "name": "threshold_2",
+    "detection_test_ap": 0.9937284001454221,
+    "forecast_24h_ap": 0.06321675194027629,
+    "cell_updates": 700005600,
+    "device": "cuda",
+    "mode": "dense"
+  },
+  {
+    "name": "reset_0.2",
+    "detection_test_ap": 0.9928036521524448,
+    "forecast_24h_ap": 0.06859259855456942,
+    "cell_updates": 700005600,
+    "device": "cuda",
+    "mode": "dense"
+  },
+  {
+    "name": "refrac_0",
+    "detection_test_ap": 0.9934915554778567,
+    "forecast_24h_ap": 0.058608236393337905,
+    "cell_updates": 700005600,
+    "device": "cuda",
+    "mode": "dense"
+  },
+  {
+    "name": "refrac_6",
+    "detection_test_ap": 0.9934737213560291,
+    "forecast_24h_ap": 0.05813035697084671,
+    "cell_updates": 700005600,
+    "device": "cuda",
+    "mode": "dense"
+  },
+  {
+    "name": "no_coupling",
+    "detection_test_ap": 0.9940672664150356,
+    "forecast_24h_ap": 0.03185126898678868,
+    "cell_updates": 700005600,
+    "device": "cuda",
+    "mode": "dense"
+  },
+  {
+    "name": "binary",
+    "detection_test_ap": 0.9996700246004492,
+    "forecast_24h_ap": 0.04004453755893769,
+    "cell_updates": 700005600,
+    "device": "cuda",
+    "mode": "dense"
+  },
+  {
+    "name": "count",
+    "detection_test_ap": 0.9996700246004492,
+    "forecast_24h_ap": 0.04004453755893769,
+    "cell_updates": 700005600,
+    "device": "cuda",
+    "mode": "dense"
+  },
+  {
+    "name": "sparse_cpu",
+    "detection_test_ap": 0.992164188539159,
+    "forecast_24h_ap": 0.05827620962949662,
+    "cell_updates": 39223021,
+    "device": "cpu",
+    "mode": "sparse"
+  }
+]

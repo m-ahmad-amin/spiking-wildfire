@@ -1,0 +1,5 @@
+{
+  "gradient_boosting_test_average_precision": 0.4586658632307268,
+  "lstm_test_average_precision": 0.9746917347026682,
+  "convlstm_test_average_precision": 0.032131671151274147
+}
