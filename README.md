@@ -148,6 +148,8 @@ See `data/results/` (`metrics.json`, `baselines.json`, `ablations.json`). Keep i
 - Perimeter polygons are final footprints painted across their date span
 - Global map **reuses California readouts** and is **not** scored
 
+![thumbnail](https://res.cloudinary.com/dzzrxqiho/image/upload/v1791662811/0e428458-8524-4e38-a750-ad2108ca0818.png)
+
 ---
 
 ## License / citation
